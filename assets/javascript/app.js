@@ -4,10 +4,10 @@
     // time remaining
 
 // opening screen should show when user first lands at the page
-$(document).ready(function) {
-    startScreen = "<p class='text-center main-button-container'><a class='btn btn-primary btn-lg btn-block start-button' href='#' role='button'>Start Quiz</a></p>";
+$(document).ready(function(){
+    startScreen = "";
 	$(".quizArea").html(startScreen);
-}
+});
 
 // click start button to begin game and form appears
 // create form style questions (user can only choose one selection)
